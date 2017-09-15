@@ -1,0 +1,10 @@
+<view class='bg'>
+  <view class='userUi'></view>
+  <view>
+    <navigator>我的订单</navigator>
+    <navigator>退货 / 售后</navigator>
+    <navigator>优惠券</navigator>
+    <navigator>地址管理</navigator>
+    <navigator>联系客服</navigator>
+  </view>
+</view>

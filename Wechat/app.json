@@ -1,12 +1,47 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/classes/classes",
+    "pages/cart/cart",
+    "pages/my/my"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fbfbfb",
     "navigationBarTitleText": "Ricky",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7f7f7f",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#ba343a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"images/icon/wxb主页.png",
+        "selectedIconPath":"images/icon/wxb主页red.png"
+      },
+      {
+        "pagePath": "pages/classes/classes",
+        "text": "分类",
+        "iconPath": "images/icon/all.png",
+        "selectedIconPath": "images/icon/allred.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "images/icon/cart.png",
+        "selectedIconPath": "images/icon/cartred.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人",
+        "iconPath": "images/icon/account.png",
+        "selectedIconPath": "images/icon/accountred.png"
+      }
+    ]
   }
 }

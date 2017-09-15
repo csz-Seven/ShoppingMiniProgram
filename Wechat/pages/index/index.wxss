@@ -1,7 +1,8 @@
-.scroll{
+/*错误示范  */
+/* .scroll{
   width: 100%;
   overflow: auto;
-}
+} */
 
 /*search  */
 

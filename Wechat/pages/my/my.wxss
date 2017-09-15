@@ -1,0 +1,6 @@
+
+.userUi{
+  background: black;
+  height: 250rpx;
+  margin-bottom: 10px;
+}

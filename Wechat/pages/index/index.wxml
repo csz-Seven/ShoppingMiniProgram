@@ -1,44 +1,45 @@
 <!--index.wxml-->
 <view class="container">
-  <view class='scroll'>
-    <!--搜索框  -->
-    <view class='searchBox'>
-      <navigator class='search'>
-        <i class='searchIcon iconfont icon-wxbsousuotuiguang'></i>搜索商品，共8506款好物
-      </navigator>
-    </view>
+  <!-- <view class='scroll'> -->
+  <!--搜索框  -->
+  <view class='searchBox'>
+    <navigator class='search'>
+      <i class='searchIcon iconfont icon-wxbsousuotuiguang'></i>搜索商品，共8506款好物
+    </navigator>
+  </view>
 
-    <!--置顶  -->
-    <view class='banner'>
-      <image src='../../images/1.png' mode='aspectFit'></image>
-      <view class='introduce'>
-        <view class='introduceItem'>
-          <i class='nikeIcon iconfont icon-success'></i>老王自营品牌</view>
-        <view class='introduceItem'>
-          <i class='nikeIcon iconfont icon-success'></i>30天无忧退货</view>
-        <view class='introduceItem'>
-          <i class='nikeIcon iconfont icon-success'></i>48小时快速退款</view>
-      </view>
-    </view>
-
-
-    <!--明星商品  -->
-    <view class='starGoods'>
-      <view class='starH1'>明星商品</view>
-      <image src='../../images/2.jpg' mode='aspectFit'></image>
-    </view>
-
-
-    <view class="userinfo">
-      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-      <block wx:else>
-        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      </block>
+  <!--置顶  -->
+  <view class='banner'>
+    <image src='../../images/1.png' mode='aspectFit'></image>
+    <view class='introduce'>
+      <view class='introduceItem'>
+        <i class='nikeIcon iconfont icon-success'></i>老王自营品牌</view>
+      <view class='introduceItem'>
+        <i class='nikeIcon iconfont icon-success'></i>30天无忧退货</view>
+      <view class='introduceItem'>
+        <i class='nikeIcon iconfont icon-success'></i>48小时快速退款</view>
     </view>
   </view>
 
-  <view class='nav'>
+
+  <!--明星商品  -->
+  <view class='starGoods'>
+    <view class='starH1'>明星商品</view>
+    <image src='../../images/2.jpg' mode='aspectFit'></image>
+  </view>
+
+
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+    <!-- </view> -->
+  </view>
+
+  <!--错误示范  -->
+  <!-- <view class='nav'>
     <navigator class='navItem clickCurrent'>
       <i class='iconfont icon-wxbzhuye'></i>首页</navigator>
     <navigator class='navItem'>
@@ -47,5 +48,5 @@
       <i class='iconfont icon-cart'></i>购物车</navigator>
     <navigator class='navItem'>
       <i class='iconfont icon-account'></i>个人</navigator>
-  </view>
+  </view> -->
 </view>
