@@ -22,6 +22,13 @@
     </view>
 
 
+    <!--明星商品  -->
+    <view class='starGoods'>
+      <view class='starH1'>明星商品</view>
+      <image src='../../images/2.jpg' mode='aspectFit'></image>
+    </view>
+
+
     <view class="userinfo">
       <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
       <block wx:else>

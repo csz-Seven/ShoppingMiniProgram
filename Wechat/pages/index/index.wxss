@@ -1,5 +1,6 @@
 .scroll{
   width: 100%;
+  overflow: auto;
 }
 
 /*search  */
@@ -59,6 +60,7 @@
 .banner {
   width: 100%;
   background: #ffffff; 
+  margin-bottom: 30rpx
 }
 
 .banner image {
@@ -77,6 +79,23 @@
   font-weight: 700;
   color: #b4282b;
   padding-right: 5px;
+}
+
+
+/*starGoods  */
+.starGoods {
+  width: 100%;
+  background: #ffffff; 
+  text-align: center;
+}
+.starGoods image {
+  width: 100%;
+}
+.starH1{
+  font-size: 18px;
+  font-weight:500;
+  height:70rpx;
+  line-height: 70rpx;
 }
 
 /**index.wxss**/
@@ -105,7 +124,7 @@
 /*导航栏  */
 
 .nav {
-  position: absolute;
+  position: fixed;
   display: flex;
   bottom: 0;
   width: 100%;
