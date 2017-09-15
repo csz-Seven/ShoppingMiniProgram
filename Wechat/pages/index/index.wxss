@@ -1,4 +1,86 @@
+.scroll{
+  width: 100%;
+}
+
+/*search  */
+
+.searchBox {
+  width: 100%;
+  position: relative;
+  /* margin-bottom: 5rpx; */
+}
+
+.search {
+  width: 85%;
+  margin: 0 auto;
+  color: #8e8e8e;
+  border: 2px solid #d9d9d9;
+  border-left: 0;
+  border-right: 0;
+  height: 40px;
+  line-height: 38px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  background: #fff;
+  vertical-align: center;
+}
+
+.search::after, .search::before {
+  position: absolute;
+  top: 0;
+  content: '';
+  display: block;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #d9d9d9;
+  background: #ffffff;
+}
+
+.search::before {
+  border-radius: 50% 0 0 50%;
+  border-right: 0;
+  left: 5px;
+}
+
+.search::after {
+  right: 5px;
+  border-left: 0;
+  border-radius: 0 50% 50% 0;
+}
+
+.search .searchIcon {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/*banner  */
+
+.banner {
+  width: 100%;
+  background: #ffffff; 
+}
+
+.banner image {
+  width: 100%;
+}
+
+.banner .introduce {
+  display: flex;
+}
+.introduce .introduceItem{
+  text-align: center;
+  font-size: 13px;
+  flex: 1;
+}
+.nikeIcon{
+  font-weight: 700;
+  color: #b4282b;
+  padding-right: 5px;
+}
+
 /**index.wxss**/
+
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -17,5 +99,37 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top: 50px;
+}
+
+/*导航栏  */
+
+.nav {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 27px;
+  border-top: 1px solid #b3b3b3;
+  color: #7f7f7f;
+}
+
+.navItem {
+  float: left;
+  flex: 1;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  background: #fbfbfb;
+}
+
+.navItem .iconfont {
+  font-size: 25px;
+  display: block;
+}
+
+.clickCurrent {
+  color: #ba343a;
 }
