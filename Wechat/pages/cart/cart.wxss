@@ -1,0 +1,28 @@
+.introduce {
+  display: flex;
+}
+
+.introduceItem {
+  flex: 1;
+  font-size: 28rpx;
+  text-align: center;
+  color: #666;
+  margin-top: 15px;
+}
+
+.cartIsNull {
+  height: 100%;
+  text-align: center;
+  color: #999;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.cartIcon {
+  font-size: 100px;
+}
+.cartInfo{
+  font-size:14px;
+  font-weight: 700;
+}

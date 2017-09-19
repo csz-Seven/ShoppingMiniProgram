@@ -1,10 +1,18 @@
 <view class='bg'>
-  <view class='userUi'></view>
-  <view>
-    <navigator>我的订单</navigator>
-    <navigator>退货 / 售后</navigator>
-    <navigator>优惠券</navigator>
-    <navigator>地址管理</navigator>
-    <navigator>联系客服</navigator>
+  <view class='userUi'>
+    <view>
+      <image class='userAvatar' src='{{userInfo.avatarUrl}}'></image>
+    </view>
+    <view class='userInfo'>
+      <view class='nickName'>{{userInfo.nickName}}</view>
+      <view class='userStar'>普通用户</view>
+    </view>
   </view>
+  <view class='userMenu'>
+    <navigator><i class='wyyx menuIcon wyyx-chaibaoguoqujian-xianxing'></i>我的订单</navigator>
+    <navigator><i class='wyyx menuIcon wyyx-caiwu-xianxing'></i>退货 / 售后</navigator>
+    <navigator><i class='wyyx menuIcon wyyx-youhuijuan-xianxing'></i>优惠券</navigator>
+    <navigator><i class='wyyx menuIcon wyyx-weizhi-xianxing'></i>地址管理</navigator>
+    <navigator><i class='wyyx menuIcon wyyx--kefu-xianxing'></i>联系客服</navigator>
+  </view> 
 </view>

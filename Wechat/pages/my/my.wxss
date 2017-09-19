@@ -1,6 +1,56 @@
+/*头部  */
 
-.userUi{
-  background: black;
-  height: 250rpx;
+.userUi {
+  background: #1e1e1d;
+  height: 240rpx;
   margin-bottom: 10px;
+  display: flex;
+  align-items:center;
+  box-sizing:border-box;
+  padding-left: 20px; 
+}
+
+.userUi .userAvatar {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.userInfo {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.userInfo .nickName {
+  color: #b3b3b3;
+}
+
+.userInfo .userStar {
+  color: #626262;
+}
+
+/*菜单  */
+
+.userMenu {
+  background: #fff;
+}
+
+.userMenu navigator {
+  font-size: 18px;
+  color: #666060;
+  margin-left: 26px;
+  height: 70px;
+  line-height: 70px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.userMenu navigator:last-child {
+  border-bottom: 0px solid #d9d9d9;
+}
+
+.menuIcon {
+  font-size: 30px;
+  margin-right: 15px;
+  vertical-align: middle;
 }

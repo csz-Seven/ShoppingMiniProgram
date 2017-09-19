@@ -1,3 +1,13 @@
-<view class='container'>
-  3
+<view class='bg'>
+  <view class='introduce'>
+    <view class='introduceItem'><i>★</i>30天有忧退货</view>
+    <view class='introduceItem'><i>★</i>48小时慢速退款</view>
+    <view class='introduceItem'><i>★</i>满88元免邮费</view>    
+  </view>
+  <view class='cartIsNull'>
+    <view>
+      <i class='cartIcon wyyx wyyx-gouwuche'></i>
+      <view class='cartInfo'>钱只是换了一种方式陪你</view> 
+    </view>
+  </view>
 </view>
