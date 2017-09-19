@@ -1,3 +1,65 @@
-bgColor{
+.classesBox {
   background: #fff;
+  display: flex;
+  height: 100%;
 }
+
+.nav {
+  width: 100px;
+  height: 100%;
+  border-right: 1px solid #d9d9d9;
+}
+.nav view{
+  height: 57px;
+  line-height: 57px;
+  color: #3b3b3b;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+}
+.nav .select{
+  color: #b23d3d;
+  border-left: 2px solid #ab2b2b;
+}
+
+.navView{
+  height: 100%;
+  padding: 52rpx 48rpx 0;
+}
+.banner{
+  width: 100%;
+  margin-bottom: 37px;
+}
+.banner image {
+  width: 100%;
+  height: 92px;
+}
+
+
+.selectView{
+  height: 100%;
+  color: #434343;
+  text-align: center;
+}
+.classesTitle{
+  font-size: 18px;
+  font-weight: 500;
+}
+.selectMenu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.selectMenu view{
+  font-size: 12px;
+  width:80px;
+  height: 80px;
+}
+.selectMenu navigator{
+  height: 100%;
+}
+.selectMenu image{
+  width: 100%;
+  height: 100%;
+}
+

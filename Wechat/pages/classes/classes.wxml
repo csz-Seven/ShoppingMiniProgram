@@ -1,3 +1,29 @@
-<view class='bgColor'>
-  2
+<view class='classesBox'>
+  <scroll-view class='nav' scroll-y='true'>
+    <view class='select'>居家</view>
+    <view>餐厨</view>
+    <view>配件</view>
+    <view>服装</view>
+    <view>洗护</view>
+    <view>婴童</view>
+    <view>杂货</view>
+    <view>饮食</view>
+    <view>志趣</view>
+  </scroll-view>
+  <scroll-view scroll-y='true' class='navView'>
+    <view class='banner'>
+      <image src='../../images/3.png' mode='aspectFit'></image>
+    </view>
+    <view class='selectView'>
+      <view class='classesTitle'>— 居家分类 —</view>
+      <view class='selectMenu'>
+        <view>
+          <navigator>
+            <image src='../../images/4.png' mode='aspectFit'></image>
+          </navigator>
+        </view>
+
+      </view>
+    </view>
+  </scroll-view>
 </view>
