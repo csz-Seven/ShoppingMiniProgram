@@ -1,4 +1,4 @@
-<view class='bg'>
+<view class='bg flexBox'>
   <view class='introduce'>
     <view class='introduceItem'><i>★</i>30天有忧退货</view>
     <view class='introduceItem'><i>★</i>48小时慢速退款</view>

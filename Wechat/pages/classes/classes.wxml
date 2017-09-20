@@ -21,21 +21,28 @@
       <view class='classesTitle'>— 居家分类 —</view>
       <view class='selectMenu'>
         <navigator>
+          <!-- <image src='../../images/emoji/emoji-1.png'></image> -->
+          <image src='../../images/emoji/emoji-1.png'></image>
           <view>家具</view>
         </navigator>
         <navigator>
+        <image src='../../images/emoji/emoji-2.png'></image>
           <view>被套</view>
         </navigator>
         <navigator>
+        <image src='../../images/emoji/emoji-3.png'></image>
           <view>布艺软装</view>
         </navigator>
         <navigator>
+        <image src='../../images/emoji/emoji-12.png'></image>
           <view>收纳</view>
         </navigator>
         <navigator>
+        <image src='../../images/emoji/emoji-5.png'></image>
           <view>家具</view>
         </navigator>
         <navigator>
+        <image src='../../images/emoji/emoji-30.png'></image>
           <view>家饰</view>
         </navigator>
       </view>

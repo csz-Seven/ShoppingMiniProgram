@@ -1,3 +1,7 @@
+.flexBox{
+  display: flex;
+  flex-direction: column;
+}
 .introduce {
   display: flex;
 }
@@ -7,11 +11,11 @@
   font-size: 28rpx;
   text-align: center;
   color: #666;
-  margin-top: 15px;
+  margin-top: 30rpx;
 }
 
 .cartIsNull {
-  height: 100%;
+  flex:1;
   text-align: center;
   color: #999;
   display: flex;
@@ -20,9 +24,9 @@
 }
 
 .cartIcon {
-  font-size: 100px;
+  font-size: 200rpx;
 }
 .cartInfo{
-  font-size:14px;
+  font-size:28rpx;
   font-weight: 700;
 }

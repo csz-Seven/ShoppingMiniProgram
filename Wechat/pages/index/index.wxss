@@ -16,12 +16,12 @@
   width: 85%;
   margin: 0 auto;
   color: #8e8e8e;
-  border: 2px solid #d9d9d9;
+  border: 4rpx solid #d9d9d9;
   border-left: 0;
   border-right: 0;
-  height: 40px;
-  line-height: 38px;
-  font-size: 15px;
+  height: 80rpx;
+  line-height: 76rpx;
+  font-size: 30rpx;
   font-weight: 500;
   text-align: center;
   background: #fff;
@@ -33,26 +33,26 @@
   top: 0;
   content: '';
   display: block;
-  height: 40px;
-  width: 40px;
-  border: 2px solid #d9d9d9;
+  height: 80rpx;
+  width: 80rpx;
+  border: 4rpx solid #d9d9d9;
   background: #ffffff;
 }
 
 .search::before {
   border-radius: 50% 0 0 50%;
   border-right: 0;
-  left: 5px;
+  left: 10rpx;
 }
 
 .search::after {
-  right: 5px;
+  right: 10rpx;
   border-left: 0;
   border-radius: 0 50% 50% 0;
 }
 
 .search .searchIcon {
-  font-size: 24px;
+  font-size: 48rpx;
   font-weight: 700;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .banner image {
-  width: 100%;
+  width:100%;
 }
 
 .banner .introduce {
@@ -73,13 +73,13 @@
 }
 .introduce .introduceItem{
   text-align: center;
-  font-size: 13px;
+  font-size: 26rpx;
   flex: 1;
 }
 .nikeIcon{
   font-weight: 700;
   color: #b4282b;
-  padding-right: 5px;
+  padding-right:10rpx;
 }
 
 
@@ -93,7 +93,7 @@
   width: 100%;
 }
 .starH1{
-  font-size: 18px;
+  font-size: 36Rpx;
   font-weight:500;
   height:70rpx;
   line-height: 70rpx;
@@ -119,7 +119,7 @@
 }
 
 .usermotto {
-  margin-top: 50px;
+  margin-top: 100rpx;
 }
 
 .clickCurrent {
