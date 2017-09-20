@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/classes/classes",
     "pages/cart/cart",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/Z/Z"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -41,6 +42,12 @@
         "text": "个人",
         "iconPath": "images/icon/account.png",
         "selectedIconPath": "images/icon/accountred.png"
+      },
+      {
+        "pagePath": "pages/Z/Z",
+        "text": "神秘窗口",
+        "iconPath": "images/emoji/emoji-20.png",
+        "selectedIconPath": "images/emoji/emoji-20.png"
       }
     ]
   }
