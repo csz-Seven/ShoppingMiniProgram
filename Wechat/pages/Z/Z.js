@@ -82,7 +82,7 @@ Page({
       // },
 
       header: {
-        'content-type': 'text/json' // 默认值
+        'content-type': 'text/json' 
       },
       success: function (res) {
         console.log(res)
