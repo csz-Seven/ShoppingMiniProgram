@@ -5,14 +5,54 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    locationData: {
+      scale: 15,
+      latitude: '',
+      longitude: '',
+      markers: [],
+      circles: []
+    }
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    const _this = this
     this.getdoubanTop();
+    // 获取当前位置
+    wx.getLocation({
+      type: 'gcj02',
+      success: function (res) {
+        console.log(res);
+        _this.setData({
+          locationData: {
+            latitude: res.latitude,
+            longitude: res.longitude,
+            markers: [{
+              latitude: res.latitude,
+              longitude: res.longitude,
+              width: 30,
+              height: 30,
+              iconPath: "/images/icon/wxb定位.png"
+            }],
+            circles: [{
+              latitude: res.latitude,
+              longitude: res.longitude,
+              color: '#7cb5ec77',
+              fillColor: '#7cb5ec88',
+              radius: 270,
+              strokeWidth: 1
+            }]
+          }
+        })
+      },
+    })
+
+// 调用微信地图-选择
+    wx.chooseLocation({
+      success: function(res) {},
+    })
   },
 
   /**
@@ -82,7 +122,7 @@ Page({
       // },
 
       header: {
-        'content-type': 'text/json' 
+        'content-type': 'text/json'
       },
       success: function (res) {
         console.log(res)

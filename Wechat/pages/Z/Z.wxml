@@ -1,0 +1,1 @@
+<map class='wxMap' longitude='{{locationData.longitude}}' latitude='{{locationData.latitude}}' scale='16' markers='{{locationData.markers}}' circles='{{locationData.circles}}'>{{locationData.latitude}} {{locationData.longitude}}</map>
